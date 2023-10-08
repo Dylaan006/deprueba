@@ -209,24 +209,34 @@ p {
     border: none;
 }
 
+.container-container {
+    display: flex;
+    justify-content: center;
+}
 
-
-.link1 {
-    display: inline-block;
-    padding: 1.6vh 3vh; 
-    margin: -3vh;   
-    font-size: 1.3em; 
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
+.container-link {
+    position: absolute;
+    margin: -13vh;
+    padding: 2vh 3vh; 
+    
+    font-size: 2vh; 
+    font-weight: bold;  
     background-color: #CC2525;
     border: none;
     border-radius: 20px;
-    transition: background-color 0.3s ease;
+   
+
 }
 
-.link1:hover {
+.container-link:hover {
     background-color: #e50000;
+    transition: .3s ease;
+}
+
+.container-link a {
+    text-decoration: none;
+    color: #000;
+    
 }
 
 
@@ -242,7 +252,7 @@ p {
     background-color: #CC2525;
     border: none;
     border-radius: 20px;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .link2:hover {
@@ -253,7 +263,10 @@ p {
 
 
 
-
+@media only screen and (max-width: 750px) {
+    
+    
+}
 
 
 
