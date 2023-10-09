@@ -58,6 +58,7 @@ body {
 
 .h1a {
     padding: 20px;
+    color: #CC2525;
 
 }
 
@@ -90,5 +91,15 @@ body {
     float: right;  
     margin: -20px;
     font-size: 40px;
+    color: #CC2525;
     
+}
+
+.titulo-info {
+    color: #CC2525;
+   padding: 10px;
+}
+
+.p-info {
+    padding: 5px;
 }
