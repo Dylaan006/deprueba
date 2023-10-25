@@ -1,110 +1,124 @@
 * {
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    padding: 0;
 }
 
-body {
-    background-color: #bfbfbf;
-}
-
-.nav__ul-responsive {
-    display: none;
-}
-
-.nav {
-    background-color: #cecece;
-    
-}
-
-.nav__ul {
-    padding: 15px;
-    margin-left: 20px;
-
-}
-
-.nav__li {
-    display: inline-block;
-    margin-right: 18px;
-    font-size: 20px;
-}
-
-.a{
-    text-decoration: none;
-    color: #000;
-
-}
-
-.a:hover {
-    color: #fff;
-    
-}
-
-
-.contenedor-titulo {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-}
-
-.titulo {
-    height: 200px;
-    width: 500px;
-    background-color: #fff;
-    border-radius: 2vh;
+.container-home {
+    margin: 80px auto;
+    background-color: #2b3035;
+    width: 80%;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+.container-info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.info {
+    color: #fff;
+    background-color: #2b3035;
+    width: 500px;
+    border-radius: 15px;
+    padding: 8px;   
     margin: 10px;
 }
 
-.h1a {
-    padding: 20px;
-    color: #CC2525;
 
-}
-
-.h2a {
-    padding: 10px;
-    margin: 5px;
-}
-
-
-.info-container {
+.container-packs {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    color: #fff;
+    margin: 30px;
     flex-wrap: wrap;
 
 }
 
-.info {
-    height: 30vh;
-    width: 50vh;
+
+.pack {
+    width: 500px;
+    background-color: #2b3035;
+    height: 700px;
+    border: solid 3px #2b3035;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.infopack {
+    height: 640px;
     background-color: #fff;
-    text-align: center;
-    border-radius: 2vh;
+    width: 96%;
+    margin: auto;
+    color: #000;
+    text-align: start;
+}
+
+.pack1 {
+    margin-right: 25px;
+}
+
+.pack2 {
+    margin-left: 25px;
+}
+
+
+
+.li-pack {
+    list-style: none;
+    font-size: 20px;
     padding: 5px;
-    margin: 25px;
-    flex-grow: 1;
+   
+}
+
+.fa-check {
+    margin-right: 10px;
+    margin-left: -10px;
+    color: #0f1;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1150px) {
     
-}
-
-
-
-.info i {
-    position: relative;  
-    float: right;  
-    margin: -20px;
-    font-size: 40px;
-    color: #CC2525;
+    .pack1 {
+        margin-right: 10px;
+    }
     
+    .pack2 {
+        margin-left: 10px;
+    }
+    
+    .info {
+        margin: 20px;
+    }
 }
 
-.titulo-info {
-    color: #CC2525;
-   padding: 10px;
-}
 
-.p-info {
-    padding: 5px;
-    font-size: 18px;
-    font-weight: bold;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+

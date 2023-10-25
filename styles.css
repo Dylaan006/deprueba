@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #bfbfbf;
+    background-color: #fff;
 }
 
 .nav__ul-responsive {
@@ -16,7 +16,7 @@ body {
 }
 
 .nav__ul {
-    padding: 15px;
+    padding-top: 15px;
     margin-left: 20px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .info-start-container {
-    background-color: #fff;
+    background-color: #bfbfbf;
     height: 400px;
     width: 80%;
     border-radius: 25px;
@@ -44,7 +44,7 @@ body {
     display: flex;
     margin: 35px auto;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -76,13 +76,23 @@ body {
 #packs {
     padding: 20px;
     text-align: center;
+    background-color: #bfbfbf;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.container-pack {
+    display: flex;
+    align-content: space-around;
+    
 }
 
 .pack {
     background-color: #a6e2e4;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
+    margin: auto;
     display: inline-block;
 }
 
